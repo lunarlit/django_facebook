@@ -1,0 +1,17 @@
+
+<html>
+<head>
+    <title>play2</title>
+</head>
+<body>
+{{ name }} 의 홈페이지 입니다. <br/>
+{{ count }} 번째 방문이군요<br/>
+{{ status }} 입니다.<br/>
+
+<ol>
+    {% for item in diary %}
+     <li>{{ item }} </li><br/>
+    {% endfor %}
+</ol>
+</body>
+</html>
