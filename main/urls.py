@@ -20,7 +20,7 @@ from facebook.views import play, play2, profile, \
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('/', newsfeed),
+    path('', newsfeed),
     path('feed/<pk>/', detail_feed),
     path('feed/<pk>/edit/', edit_feed),
     path('feed/<pk>/remove/', remove_feed),
